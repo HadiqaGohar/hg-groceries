@@ -363,7 +363,9 @@ function App() {
 
 
             <div className="mt-8">
-                <h2 className="text-4xl text-stone-700 font-bold my-8 te">Fruits</h2>
+                {/* <h2 className="text-4xl text-stone-700 font-bold my-8 te">Fruits</h2> */}
+
+                <h2 className="md:text-4xl text-2xl text-stone-700 font-bold my-8">Products</h2>
 
                 {/* Products Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -401,7 +403,7 @@ function App() {
                 {/* VEGETABLES */}
 
 
-                <h2 className="text-4xl text-stone-700 font-bold my-8">Vegetables</h2>
+                {/* <h2 className="text-4xl text-stone-700 font-bold my-8">Vegetables</h2> */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     {products.slice(9, 18).map(product => (
                         <div
